@@ -48,3 +48,49 @@ print("\033[32mThis is green text\033[0m")  # Green text
 - 35 = Magenta
 - 36 = Cyan
 - 37 = White
+
+
+## If Elif Else
+- rovná se: a == b
+- nerovná: a != b
+- méně než: a < b
+- méně než nebo rovno: a <= b
+- větší než: a > b
+- větší než nebo rovno : a >= b
+
+### If
+```python
+a = 33
+b = 22
+if a > b:
+    print ("a je větší než b")
+```
+
+### Elif
+- Klíčové slovo elif je způsob, jakým Python říká „pokud předchozí podmínky nebyly pravdivé, zkuste tuto podmínku
+```python
+a=3
+b=2
+
+if a < b:
+    print ("a je větší než b")
+
+elif a > b:
+    print ("b je větší než a")
+```
+### Else
+- else zachycuje zbytek
+```python
+a=3
+b=2
+
+if a < b:
+    print ("a je větší než b")
+
+elif a > b:
+    print ("b je větší než a")
+
+else:
+    print ("a je rovno b")
+
+```
