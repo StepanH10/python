@@ -1,5 +1,6 @@
 import random
 
+score = 0
 win = "  you won  "  
 loose = " you lost "
 
@@ -22,4 +23,7 @@ if ab:
 
 else:
     print (loose *1)
+if ab:
+    score = score + 1
+    print (f"your score is {score}")
 
