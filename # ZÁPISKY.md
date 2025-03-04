@@ -1,8 +1,24 @@
 # ZÁPISKY
 ## Štěpán Hodboď 1IT
+### [Github](https://github.com/StepanH10)
 
-
-
+## Promněné
+- základ pythonu
+- ukládá hodnotu do proměné npř. x
+```python
+x = 10
+y = 20
+xy = 10 + 20
+```
+## Print
+- Další základ pythonu
+- díky print dokážeme rozpovídát počítač
+```python
+x = 10
+y = "Hello world"
+print (x)
+print (y)
+```
 ## Strip 
 
 - Používá se na vyčištění textu  
