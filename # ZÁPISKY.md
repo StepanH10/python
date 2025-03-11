@@ -110,3 +110,12 @@ else:
     print ("a je rovno b")
     
 ```
+
+## For Loops
+```python
+for prvek in sekvence:
+    # kód, který se provede v každé iteraci
+```
+- prvek  název proměnné, která bude v každé iteraci obsahovat jinou hodnotu ze sekvence
+- sekvence  objekt, přes který cyklus prochází (např. seznam)
+odsazení určuje blok kódu uvnitř cyklu
