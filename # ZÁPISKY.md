@@ -119,3 +119,14 @@ for prvek in sekvence:
 - prvek  název proměnné, která bude v každé iteraci obsahovat jinou hodnotu ze sekvence
 - sekvence  objekt, přes který cyklus prochází (např. seznam)
 odsazení určuje blok kódu uvnitř cyklu
+### (1, 10, 2)
+- min, max, po, kolika
+```python
+for i in range(1,10,2):
+    print(i)
+```
+- output = 1
+3
+5
+7
+9
