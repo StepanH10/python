@@ -131,6 +131,46 @@ for i in range(1,10,2):
 7
 9
 
+# While
+- Smyčka (while loop) se používá k opakovanému provádění bloku kódu, dokud je splněna podmínka.
+## syntaxe
+```python
+x = 0
+while x == 10:
+    print ("Hello World")
+    x = x + 1
+```
+### Nekonečný while loop
+- While true poběží dokud jej nepřerušíme pomocí break
+```python
+while True:
+    odpověď = input("Chceš skončit? (ano/ne): ")
+    if odpověď.lower() == "ano":
+        break  # Ukončí smyčku
+```
+### Continue
+ - while smyčka s continue (přeskočení iterace)
+python
+```python
+i = 0
+while i < 5:
+    i += 1
+    if i == 3:
+        continue  # Přeskočí číslo 3
+    print(i)
+```
+### Shrnutí
+- while smyčka běží, dokud je podmínka pravdivá.
+ - Pozor na nekonečné smyčky (nezapomenout měnit - - - hodnotu proměnné).
+ - break ukončuje cyklus.
+ - continue přeskočí aktuální iteraci a pokračuje dál.
+ - else se vykoná, pokud cyklus neskončil breakem.
+
+
+
+
+
+---
 # Aritmetické operace 
 - 	Sčítání	
 ```python
