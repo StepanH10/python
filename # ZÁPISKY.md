@@ -2,7 +2,7 @@
 ## Štěpán Hodboď 1IT
 ### [Github](https://github.com/StepanH10)
 
-## Promněné
+# Promněné
 - základ pythonu
 - ukládá hodnotu do proměné npř. x
 ```python
@@ -10,7 +10,7 @@ x = 10
 y = 20
 xy = 10 + 20
 ```
-## Print
+# Print
 - Další základ pythonu
 - díky print dokážeme rozpovídát počítač
 ```python
@@ -19,27 +19,40 @@ y = "Hello world"
 print (x)
 print (y)
 ```
-## Strip 
+---
+# Input
+- způsob jak vložit něco do proměné
+```python
+a = input("enetr your age")
+print (f"your age is {a}")
+```
+- jestli chcete sčítat s danou proměnou musíte vložit int
+```python
+a = int(input("eneter your age"))
+ab = a + 10
+print (f"your age + 1O is {ab}")
+```
+# Strip 
 
 - Používá se na vyčištění textu  
 ```python
 Txt = ("AHAhaHAhaHAh") 
 Txt = Txt.Strip()
 ```
-## Lower 
+# Lower 
 
 - Všechno se dá do malích písmen 
 ```python
 Txt = ("AHAhaHAhaHAh") 
 Txt = Txt.lower() 
 ```
-## Split 
+# Split 
 - Rozdělí tetxt podle mezer 
 ```python
 Txt = ("AHAhaH  AhaHAh") 
 Txt = Txt.split() 
 ```
-## Slovník
+# Slovník
 - klíče si určuju já
 - místo [ ] { }
 ```python
@@ -51,7 +64,7 @@ slovnik = {
 
 print (slovnik ["colors"] ["1"])
 ```
-## Barvy
+# Barvy
 ```python
 print("\033[31mThis is red text\033[0m")   # Red text
 print("\033[32mThis is green text\033[0m")  # Green text
@@ -66,7 +79,7 @@ print("\033[32mThis is green text\033[0m")  # Green text
 - 37 = White
 
 
-## If Elif Else
+# If Elif Else
 - rovná se: a == b
 - nerovná: a != b
 - méně než: a < b
