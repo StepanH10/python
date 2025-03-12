@@ -130,3 +130,47 @@ for i in range(1,10,2):
 5
 7
 9
+
+# Aritmetické operace 
+- 	Sčítání	
+```python
+a = 2
+b = 1
+print (a + b)
+```
+-	Odčítání
+```python
+a = 1
+b = 2
+print (a + b)
+```
+- 	Násobení
+```python
+a = 1
+b = 2
+print (a * b)
+```
+- 	Dělení (float)
+```python
+a = 1
+b = 2
+print (a / b)
+```
+- 	Celé dělení	(bez zbytku)
+```python
+a = 1
+b = 2
+print (a // b)
+```
+- Zbytek po dělení
+```python
+a = 1
+b = 2
+print (a % b)
+```
+- Umocňování (na druhou)
+```python
+a = 1
+b = 2
+print (a ** b)
+```
