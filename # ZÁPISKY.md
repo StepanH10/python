@@ -1,6 +1,24 @@
 # ZÁPISKY
 ## Štěpán Hodboď 1IT
 ### [Github](https://github.com/StepanH10)
+# Stringy
+- stringy jsou základ pythonu
+- dají se sčítat mezi sebou ALE NE S INT
+```python
+text = "HELLO "
+text2 = "WORLD"
+```
+- Když dáme string do 3x "" bude víceřádkový
+- opakovat můžeme *
+```python
+print ("hello world" * 3)
+```
+- Řetězce lze spojovat (+), opakovat (*), řezat ([start:end]).
+ - Pomocí len() zjistíš délku textu.
+ - Používej lower(), upper(), strip(), replace(), split()  pro úpravy textu.
+-  f-string je nejlepší způsob pro vkládání proměnných do textu.
+
+
 
 # Promněné
 - základ pythonu
