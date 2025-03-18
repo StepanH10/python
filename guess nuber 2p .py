@@ -34,7 +34,7 @@ while True:
         print (f"\033[32myes your score is  {p2_score}\033[0m")
         player_1 = int(input(f"{player_1_name} select new numer 1-10 \n"))
     else:
-        print ("wrong")
+        print ("\033[31mwrong\033[0m")
     if p2_score == win:
         break
 
