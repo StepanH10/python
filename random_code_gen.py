@@ -1,8 +1,9 @@
 import random
 import string
+import sys
+
+print ("1,2,3, stop = 4")
 while True:
-
-
     def generate_random_string(length=10):
         characters = string.ascii_letters + string.digits  # Letters (A-Z, a-z) + Numbers (0-9)
         random_string = ''.join(random.choices(characters, k=length))
@@ -10,7 +11,9 @@ while True:
 
     random_str = generate_random_string(8)
     random_str2 = generate_random_string(8) # Generates a 12-character random string
-    a = int(input("1,2,3, stop = 4 \n"))
+    a = int(input("\n"))
+    sys.stdout.write("\033[F")
+    sys.stdout.write("\033[K")
 
     if a == 1:
         print (f"week-{random_str}-{random_str2}")
