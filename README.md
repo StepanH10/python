@@ -15,6 +15,6 @@
 ## slot_machine
 - [Odkaz na program](https://github.com/StepanH10/python/blob/main/slot_machine.py "👀👀👀👀👀")
 - program simulující hrací automat :D 
-### input
+## input
 - [Odkaz na program](https://github.com/StepanH10/python/blob/main/Input.py "👀👀👀👀👀")
 - primitivní funkce v pythonu na vyskoušení inputu
