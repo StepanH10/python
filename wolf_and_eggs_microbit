@@ -1,0 +1,49 @@
+def on_button_pressed_a():
+    global vlk_x
+    vlk_x += -1
+    if vlk_x < 0:
+        vlk_x = 4
+input.on_button_pressed(Button.A, on_button_pressed_a)
+
+def on_button_pressed_b():
+    global vlk_x
+    vlk_x += 1
+    if vlk_x > 4:
+        vlk_x = 0
+input.on_button_pressed(Button.B, on_button_pressed_b)
+
+vejce_x = 0
+vlk_x = 0
+score = 0
+lives = 3
+vlk_y = 4
+vejce_y = 0
+vlk_x = 2
+
+def on_every_interval():
+    global vejce_y
+    vejce_y += 1
+loops.every_interval(500, on_every_interval)
+
+def on_forever():
+    global vejce_y, vejce_x, score
+    if vejce_x == vlk_x and vejce_y == vlk_y:
+        vejce_y = 0
+        vejce_x = randint(0, 4)
+        score += 1
+basic.forever(on_forever)
+
+def on_forever2():
+    global vejce_y, vejce_x, lives
+    basic.clear_screen()
+    led.plot(vlk_x, vlk_y)
+    led.plot(vejce_x, vejce_y)
+    if vejce_y > 4:
+        vejce_y = 0
+        vejce_x = randint(0, 4)
+        lives += -1
+        if lives == 0:
+            basic.show_string("GAME OVER")
+            basic.show_string("" + str((score)))
+    basic.pause(100)
+basic.forever(on_forever2)
